@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    padding: 3px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.content{
+    width: 100%;
+    height: 95%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.header{
+    width: 100%;
+    height: 5%;
+}
+
+.active{
+    background-color: red;
+}
